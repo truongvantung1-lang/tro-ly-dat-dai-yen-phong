@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: #183143;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* { box-sizing: border-box; }
+::selection { background: #d7f3e5; color: #0B7A4B; }
+
+.container-main { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+.section-title { @apply text-2xl font-extrabold tracking-tight text-ink sm:text-3xl; }
+.section-subtitle { @apply mt-2 max-w-3xl text-sm leading-6 text-slate-600 sm:text-base; }
+.card { @apply rounded-3xl border border-slate-200 bg-white shadow-soft; }
