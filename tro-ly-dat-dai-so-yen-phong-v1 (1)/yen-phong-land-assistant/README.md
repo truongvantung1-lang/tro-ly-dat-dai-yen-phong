@@ -45,3 +45,5 @@ npm run build
 ```
 
 Tải toàn bộ nội dung trong thư mục `out` lên thư mục `public_html` của tên miền.
+
+Dự án đã kết nối GitHub với Vercel.
